@@ -1,0 +1,74 @@
+.app-container {
+    min-height: 100%;
+    background-color: #f7f7f7;
+}
+
+.searchbar-container {
+    display: flex;
+    background-color: #147abc;
+    height: 60px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.sort-dropdown, .input-bar {
+    width: 250px;
+    height: 38px;
+    border-radius: 4px;
+    border-style: solid;
+    background-color: hsl(0,0%,100%);
+    border-width: 1px;
+}
+
+.input-bar {
+    border-color: hsl(0,0%,80%);
+    padding: 2px 8px;
+}
+
+.item-container {
+    height: 100%;
+}
+
+.item {
+    background-color: #ffffff;
+    width: 55%;
+    margin: 20px auto;
+    padding: 20px 20px;
+    border-radius: 5px;
+    box-shadow: -8px 1px 24px -11px rgba(0,0,0,0.75);
+    display: flex;
+}
+
+.user-image {
+   width: 80px;
+   height: 80px;
+   border-radius: 50%;
+   margin-right: 16px;
+}
+
+.bar-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width:33%;
+}
+
+.bar-container label {
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+
+}
+
+#page-numbers {
+    list-style: none;
+    display: flex;
+  }
+  
+  #page-numbers > li {
+    margin-right: 0.3em;
+    color: blue;
+    user-select: none;
+    cursor: pointer;
+  }
+  
